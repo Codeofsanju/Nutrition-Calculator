@@ -45,13 +45,21 @@ body{
 .Form{
     position: relative;
     top: 18%;
-    height: 40vh;
-    width: 40vw;
+    height: auto;
+    width: auto;
     margin: 0 auto;
-    background: #494a6b;
+    background: aqua;
+
 }
 
 .Form form{
     text-align: center;
     margin: 0 auto;
+    height: auto;
+    width: 40%;
+    background: grey;
+    border-radius: 9999em;
 }
+
+
+
