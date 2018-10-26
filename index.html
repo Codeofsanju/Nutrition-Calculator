@@ -22,14 +22,27 @@
 
     <div class = "Form">
         <form>
-            <p class = "FormTitle"> Gender: </p>
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
+            <input class = "NumberInput" type="number" placeholder="Weight in Lbs"/>
+            <span style="display:inline-block">
+                <input class = "NumberInput2" type= "number" placeholder="Feet"/> 
+                <input class = "NumberInput2" type= "number" placeholder="Inches"/> 
+            </span>
+            <input class = "NumberInput" type = "number" placeholder="Age">
+            <input type="radio" name="gender" value="male" checked> <span> Male</span>
+            <input type="radio" name="gender" value="female"> <span> Female</span>
+            <button class = "button" type="submit">Submit</button>
         </form>
     </div>
 
     <div class = "Footer">
         <p> Developed By Sanjeev Sharma </p>
+        <form class = 'links 'action = "https://github.com/Codeofsanju">
+            <button class = 'social'> <img src = "GitHub.png"> </button>
+          </form>
+
+          <form class = 'links' action = "https://www.linkedin.com/in/sanjeev-sharma-10b731168/">
+            <button class = 'social'> <img id = 'linkedIn'src = "linked.png" > </button>
+          </form>
     </div>
     <!-- <script src='js/guessing-game.js'></script> -->
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->

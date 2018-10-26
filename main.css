@@ -48,18 +48,53 @@ body{
     height: auto;
     width: auto;
     margin: 0 auto;
-    background: aqua;
-
+    color: white;
 }
 
-.Form form{
+.Form form, .NumberInput, .NumberInput2, .button{
     text-align: center;
     margin: 0 auto;
     height: auto;
     width: 40%;
-    background: grey;
+    background: lightgreen;
     border-radius: 9999em;
+    padding: 5px;
 }
 
 
 
+.NumberInput{
+    display: block;
+    background: white;
+}
+
+.NumberInput2{
+    display: inline-block;
+    background: white;
+}
+.button{
+    display: block;
+    background: white;
+    width: 20%;
+}
+
+
+img{
+    width: 30px;
+    height: 30px;
+}
+#linkedIn{
+    width: 35px;
+    height: 30px;
+}
+.social{
+    transition-duration: 0.7s;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 9999em;
+    margin-top: 0;
+}
+.links{
+    position: relative;
+    display: inline-block;
+}
